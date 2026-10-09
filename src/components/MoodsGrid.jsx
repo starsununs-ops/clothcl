@@ -6,54 +6,54 @@ export default function MoodsGrid() {
       name: 'BOLD',
       desc: 'Wear your\nconfidence.',
       images: [
-        'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&q=80',
-        'https://images.unsplash.com/photo-1591561954557-26941169b49e?w=400&q=80',
-        'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&q=80'
+        'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80',
+        'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=400&q=80',
+        'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400&q=80'
       ]
     },
     {
       name: 'WILD',
       desc: 'A little unexpected.\nA lot of you.',
       images: [
-        'https://images.unsplash.com/photo-1618220179428-22790b46a0eb?w=400&q=80',
+        'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80',
         'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80',
-        'https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80'
+        'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80'
       ]
     },
     {
       name: 'SOFT',
       desc: 'Let the details\nwhisper.',
       images: [
-        'https://images.unsplash.com/photo-1605901309584-818e25960b8f?w=400&q=80',
-        'https://images.unsplash.com/photo-1589810635656-320c156f7e8f?w=400&q=80',
-        'https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?w=400&q=80'
+        'https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?w=400&q=80',
+        'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&q=80',
+        'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80'
       ]
     },
     {
       name: 'SHY',
       desc: 'Quiet presence.\nBeautifully\nexpressed.',
       images: [
-        'https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=400&q=80',
-        'https://images.unsplash.com/photo-1584441405886-bc91be61e56a?w=400&q=80',
-        'https://images.unsplash.com/photo-1596755094514-f87e32f85e2c?w=400&q=80'
+        'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&q=80',
+        'https://images.unsplash.com/photo-1562157873-818bc0726f68?w=400&q=80',
+        'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&q=80'
       ]
     },
     {
       name: 'IN COMMAND',
       desc: 'A sharper\nkind of calm.',
       images: [
-        'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&q=80',
-        'https://images.unsplash.com/photo-1434389670869-c8c7385477da?w=400&q=80',
-        'https://images.unsplash.com/photo-1605901302636-6e11894d03e5?w=400&q=80'
+        'https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=400&q=80',
+        'https://images.unsplash.com/photo-1590736969955-71cc94801759?w=400&q=80',
+        'https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400&q=80'
       ]
     },
     {
       name: 'AT EASE',
       desc: 'Slow days.\nThoughtful style.',
       images: [
-        'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80',
-        'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&q=80',
-        'https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?w=400&q=80'
+        'https://images.unsplash.com/photo-1605763240000-7e93b172d754?w=400&q=80',
+        'https://images.unsplash.com/photo-1509319117193-57bab727e09d?w=400&q=80',
+        'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&q=80'
       ]
     }
   ];

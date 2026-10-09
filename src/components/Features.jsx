@@ -2,11 +2,11 @@ import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   const designs = [
-    'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&q=80',
+    'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80',
+    'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=400&q=80',
+    'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400&q=80',
+    'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80',
     'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80',
-    'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&q=80',
-    'https://images.unsplash.com/photo-1584441405886-bc91be61e56a?w=400&q=80',
-    'https://images.unsplash.com/photo-1434389670869-c8c7385477da?w=400&q=80',
     'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80'
   ];
 
@@ -29,15 +29,15 @@ export default function Features() {
           </div>
           
           <div className="grid grid-cols-2 gap-2 mt-auto">
-            <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&q=80" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
-            <img src="https://images.unsplash.com/photo-1618220179428-22790b46a0eb?w=600&q=80" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
+            <img src="https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?w=600&q=80" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
+            <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
           </div>
         </div>
         
         <div className="w-full sm:w-1/2 grid grid-cols-2 gap-2 h-full">
-          <img src="https://images.unsplash.com/photo-1605901309584-818e25960b8f?w=600&q=80" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
-          <img src="https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=600&q=80" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
-          <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
+          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
+          <img src="https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&q=80" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
         </div>
       </div>
 
