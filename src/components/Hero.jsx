@@ -1,19 +1,19 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Leaf } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80' },
-    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: 'https://images.unsplash.com/photo-1618220179428-22790b46a0eb?w=600&q=80' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1605901309584-818e25960b8f?w=600&q=80' },
-    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: 'https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=600&q=80' },
-    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: 'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?w=600&q=80' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?w=600&q=80' }
+    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1521459467264-802e2ef3141f?w=600&q=80' },
+    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: 'https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?w=600&q=80' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?w=600&q=80' },
+    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: 'https://images.unsplash.com/photo-1528459105426-b9548367069b?w=600&q=80' },
+    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: 'https://images.unsplash.com/photo-1534593963832-01c3595183bd?w=600&q=80' },
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1541323421480-68513be3d209?w=600&q=80' }
   ];
 
   return (
     <section className="flex flex-col lg:flex-row px-4 md:px-8 py-8 md:py-12 gap-8 lg:gap-8 items-stretch relative">
-      {/* Decorative Plant - adjusted opacity and position */}
-      <img src="/images/plant_top_left.jpg" className="absolute top-0 -left-10 w-32 md:w-64 opacity-30 mix-blend-multiply pointer-events-none z-0" alt="" />
+      {/* Elegant Leaf Decoration */}
+      <Leaf className="absolute -top-10 -left-10 w-48 md:w-80 h-48 md:h-80 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform -rotate-45" strokeWidth={1} />
       
       {/* Left Text */}
       <div className="w-full lg:w-1/4 flex flex-col justify-center text-center lg:text-left order-1 lg:order-1 relative z-20 pl-4 md:pl-8">
@@ -34,13 +34,13 @@ export default function Hero() {
       {/* Center Displays (Mannequin/Clothing) */}
       <div className="w-full lg:w-1/2 flex gap-3 md:gap-5 order-2 lg:order-2 h-[400px] md:h-[500px] lg:h-[600px] relative z-10">
         <div className="flex-1 overflow-hidden mt-12 md:mt-24 rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80" alt="Blue patterned suit on mannequin" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=800&q=80" alt="Clothing rack" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="flex-1 overflow-hidden rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1550639525-c97d455acf70?w=800&q=80" alt="Cream wrap dress on mannequin" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80" alt="Stylish clothing rack" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80" alt="Brown suit on mannequin" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+          <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?auto=format&fit=crop&w=800&q=80" alt="Boutique clothing" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
       </div>
       

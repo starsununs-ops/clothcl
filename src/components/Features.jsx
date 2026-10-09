@@ -1,11 +1,11 @@
-import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
+import { ArrowRight, PencilRuler, FileText, Ruler, Leaf } from 'lucide-react';
 
 export default function Features() {
   return (
     <section className="px-4 md:px-8 py-8 md:py-12 flex flex-col xl:flex-row gap-8 relative">
-      {/* Decorative Plants */}
-      <img src="/images/plant_mid_left.jpg" className="absolute top-1/2 -translate-y-1/2 left-0 w-16 md:w-24 opacity-80 mix-blend-multiply pointer-events-none -z-10" alt="" />
-      <img src="/images/plant_mid_center.jpg" className="absolute bottom-12 left-1/2 -translate-x-1/2 w-16 md:w-24 opacity-80 mix-blend-multiply pointer-events-none -z-10 xl:block hidden" alt="" />
+      {/* Elegant Leaf Decorations */}
+      <Leaf className="absolute top-1/2 -translate-y-1/2 left-0 w-32 md:w-48 h-32 md:h-48 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform rotate-12" strokeWidth={1} />
+      <Leaf className="absolute bottom-12 left-1/2 -translate-x-1/2 w-32 md:w-48 h-32 md:h-48 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 xl:block hidden transform -rotate-12" strokeWidth={1} />
 
       {/* Left Block */}
       <div className="w-full xl:w-[45%] flex flex-col sm:flex-row gap-6 items-stretch relative z-10">

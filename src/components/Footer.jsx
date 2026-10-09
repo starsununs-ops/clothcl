@@ -1,10 +1,10 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Leaf } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="px-4 md:px-8 py-8 md:py-12 relative border-t border-[#e5e0d8] mt-4 md:mt-8 overflow-hidden">
-      {/* Decorative Plant */}
-      <img src="/images/plant_bottom_right.jpg" className="absolute bottom-0 right-0 w-48 md:w-64 lg:w-80 opacity-90 mix-blend-multiply pointer-events-none -z-10" alt="" />
+      {/* Elegant Leaf Decoration */}
+      <Leaf className="absolute bottom-0 right-0 w-64 md:w-96 h-64 md:h-96 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform -rotate-12 translate-x-1/4 translate-y-1/4" strokeWidth={1} />
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 max-w-6xl mx-auto items-center text-center md:text-left relative z-10">
         
