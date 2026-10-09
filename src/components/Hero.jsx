@@ -2,12 +2,12 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800&q=80' },
-    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: 'https://images.unsplash.com/photo-1618220179428-22790b46a0eb?w=800&q=80' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1605901309584-818e25960b8f?w=800&q=80' },
-    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: 'https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=800&q=80' },
-    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?w=800&q=80' }
+    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/hero_fabric_0.jpg' },
+    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/hero_fabric_1.jpg' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/hero_fabric_2.jpg' },
+    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/hero_fabric_3.jpg' },
+    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/hero_fabric_4.jpg' },
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/hero_fabric_5.jpg' }
   ];
 
   return (
@@ -28,16 +28,16 @@ export default function Hero() {
         </div>
       </div>
       
-      {/* Center Displays (Mannequin/Clothing) */}
-      <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
-        <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full">
-          <img src="https://images.unsplash.com/photo-1589810635656-320c156f7e8f?w=1200&q=80" alt="Clothing rack" className="w-full h-full object-cover" />
+      {/* Center Displays (Mannequin Dresses) */}
+      <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[450px]">
+        <div className="flex-1 overflow-hidden mt-6 md:mt-12">
+          <img src="/images/hero_model_1.jpg" alt="Blue patterned suit on mannequin" className="w-full h-full object-cover object-top" />
         </div>
-        <div className="flex-1 overflow-hidden rounded-lg">
-          <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200&q=80" alt="Shirt on hanger" className="w-full h-full object-cover" />
+        <div className="flex-1 overflow-hidden">
+          <img src="/images/hero_model_2.jpg" alt="Cream wrap dress on mannequin" className="w-full h-full object-cover object-top" />
         </div>
-        <div className="flex-1 overflow-hidden mt-4 md:mt-8 rounded-t-full">
-          <img src="https://images.unsplash.com/photo-1596755094514-f87e32f85e2c?w=1200&q=80" alt="Folded clothes" className="w-full h-full object-cover" />
+        <div className="flex-1 overflow-hidden mt-4 md:mt-8">
+          <img src="/images/hero_model_3.jpg" alt="Brown suit on mannequin" className="w-full h-full object-cover object-top" />
         </div>
       </div>
       
@@ -49,8 +49,7 @@ export default function Hero() {
             <div key={idx} className="flex-1 relative group cursor-pointer overflow-hidden bg-gray-200">
               <img src={fabric.img} alt={fabric.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
               <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-1 md:p-2 text-white">
-                <span className="text-[7px] md:text-[9px] tracking-wider mb-1 font-semibold text-center leading-tight writing-vertical-rl md:writing-horizontal-tb transform rotate-180 md:rotate-0">{fabric.name}</span>
-                <span className="hidden md:block text-[8px] leading-tight opacity-0 group-hover:opacity-100 transition-opacity h-0 group-hover:h-auto overflow-hidden">{fabric.desc}</span>
+                <span className="text-[7px] md:text-[9px] tracking-wider mb-1 font-semibold text-center leading-tight">{fabric.name}</span>
               </div>
             </div>
           ))}

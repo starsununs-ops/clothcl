@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* About */}
         <div className="flex-1 flex flex-col items-center md:items-start">
-          <h3 className="font-serif text-xl md:text-2xl mb-4 text-[#2b2725]">About Style Ur Mood</h3>
+          <h3 className="font-serif text-xl md:text-2xl mb-4">About Style Ur Mood</h3>
           <p className="text-gray-600 text-sm mb-6 font-serif italic max-w-md">
             Every mood has a style. Bold, wild, soft or shy - Style Ur Mood is a wardrobe of expression. Thoughtful silhouettes, beautiful textures and unexpected details give you room to dress for the way you feel.
           </p>
@@ -18,7 +18,7 @@ export default function Footer() {
 
         {/* Designer */}
         <div className="flex-1 flex flex-col items-center md:items-start">
-          <h3 className="font-serif text-xl md:text-2xl mb-1 text-[#2b2725]">Zahwa Akhtar</h3>
+          <h3 className="font-serif text-xl md:text-2xl mb-1">Zahwa Akhtar</h3>
           <p className="text-[10px] md:text-xs uppercase tracking-widest text-gray-500 mb-4">Designer & Creative Director</p>
           <p className="text-gray-600 text-sm mb-6 font-serif italic max-w-md">
             For Zahwa Akhtar, clothing begins with a feeling. Her creative vision brings together structure and softness, familiar shapes and unexpected details. Through Style Ur Mood, she explores a simple idea: every mood deserves its own expression.
@@ -29,8 +29,8 @@ export default function Footer() {
         </div>
 
         {/* Tools image */}
-        <div className="flex-1 w-full h-48 md:h-64 flex justify-center md:justify-end bg-gray-100">
-          <img src="https://images.unsplash.com/photo-1629471131976-130ab78fbe6c?w=1200&q=80" alt="Sewing sketches and tools" className="w-full h-full object-cover grayscale opacity-80" />
+        <div className="flex-1 w-full flex justify-center md:justify-end">
+          <img src="/images/footer_sketch.jpg" alt="Sewing sketches and tools" className="max-w-full h-auto object-contain" />
         </div>
       </div>
 
