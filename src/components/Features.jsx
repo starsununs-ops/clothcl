@@ -2,12 +2,12 @@ import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   const designs = [
-    'https://images.unsplash.com/photo-1577900232427-18219b9166a0?w=400&q=80',
-    'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=400&q=80',
-    'https://images.unsplash.com/photo-1603400521630-9f2de124b33b?w=400&q=80',
-    'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80',
-    'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400&q=80',
-    'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80'
+    '/images/img10.jpg',
+    '/images/img11.jpg',
+    '/images/img12.jpg',
+    '/images/img13.jpg',
+    '/images/img1.jpg',
+    '/images/img2.jpg'
   ];
 
   return (
@@ -29,15 +29,15 @@ export default function Features() {
           </div>
           
           <div className="grid grid-cols-2 gap-2 mt-auto">
-            <img src="https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?w=600&q=80" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
-            <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/img3.jpg" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/img4.jpg" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
           </div>
         </div>
         
         <div className="w-full sm:w-1/2 grid grid-cols-2 gap-2 h-full">
-          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
-          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
-          <img src="https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&q=80" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
+          <img src="/images/img5.jpg" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/img6.jpg" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/img7.jpg" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
         </div>
       </div>
 
