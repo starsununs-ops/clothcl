@@ -1,13 +1,22 @@
 import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
+  const designs = [
+    'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?w=600&q=80',
+    'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&q=80',
+    'https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?w=600&q=80',
+    'https://images.unsplash.com/photo-1584441405886-bc91be61e56a?w=600&q=80',
+    'https://images.unsplash.com/photo-1434389670869-c8c7385477da?w=600&q=80',
+    'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80'
+  ];
+
   return (
     <section className="px-4 md:px-8 py-8 md:py-12 flex flex-col xl:flex-row gap-8">
       {/* Left Block */}
-      <div className="w-full xl:w-[45%] flex flex-col sm:flex-row gap-6 items-stretch">
+      <div className="w-full xl:w-[45%] flex flex-col sm:flex-row gap-4">
         <div className="w-full sm:w-1/2 flex flex-col justify-between">
           <div className="mb-6 md:mb-8 text-center sm:text-left">
-            <h2 className="font-serif text-3xl md:text-4xl leading-tight mb-4">DETAILS<br className="hidden md:block"/>THAT MOVE<br className="hidden md:block"/>WITH YOU.</h2>
+            <h2 className="font-serif text-3xl md:text-4xl leading-tight mb-4 text-[#2b2725]">DETAILS<br className="hidden md:block"/>THAT MOVE<br className="hidden md:block"/>WITH YOU.</h2>
             <p className="text-gray-600 text-xs md:text-sm font-serif italic mb-6 md:mb-8 max-w-[200px] mx-auto sm:mx-0">
               Lace, denim, tailoring, prints and more.<br className="hidden md:block"/>
               Thoughtful combinations for every version of you.
@@ -18,10 +27,17 @@ export default function Features() {
               </button>
             </div>
           </div>
+          
+          <div className="grid grid-cols-2 gap-2 mt-auto">
+            <img src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=600&q=80" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
+            <img src="https://images.unsplash.com/photo-1618220179428-22790b46a0eb?w=600&q=80" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
+          </div>
         </div>
         
-        <div className="w-full sm:w-1/2 flex justify-end">
-          <img src="/images/features_fabrics.jpg" alt="Fabric details" className="w-full object-contain" />
+        <div className="w-full sm:w-1/2 grid grid-cols-2 gap-2 h-full">
+          <img src="https://images.unsplash.com/photo-1605901309584-818e25960b8f?w=600&q=80" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
+          <img src="https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?w=600&q=80" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
+          <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
         </div>
       </div>
 
@@ -42,8 +58,15 @@ export default function Features() {
           </button>
         </div>
 
-        <div className="mb-6 md:mb-8 flex justify-center">
-          <img src="/images/features_dresses.jpg" alt="6 Custom Designs" className="w-full max-w-2xl object-contain" />
+        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-8">
+          {designs.map((img, idx) => (
+            <div key={idx} className="relative pt-6">
+              <span className="absolute top-0 left-1/2 -translate-x-1/2 text-xs font-serif">{String(idx+1).padStart(2, '0')}</span>
+              <div className="h-32 md:h-40 bg-gray-200">
+                <img src={img} alt={`Design ${idx+1}`} className="w-full h-full object-cover" />
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between border-t border-[#d8d3c9] pt-6 gap-4">
