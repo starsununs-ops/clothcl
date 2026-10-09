@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Tools image */}
         <div className="flex-1 w-full h-48 md:h-64 flex justify-center md:justify-end bg-gray-100">
-          <img src="/images/img13.jpg" alt="Sewing sketches and tools" className="w-full h-full object-cover grayscale opacity-80" />
+          <img src="/images/img39.jpg" alt="Sewing sketches and tools" className="w-full h-full object-cover grayscale opacity-80" />
         </div>
       </div>
 

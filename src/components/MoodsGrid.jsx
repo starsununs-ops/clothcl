@@ -6,54 +6,54 @@ export default function MoodsGrid() {
       name: 'BOLD',
       desc: 'Wear your\nconfidence.',
       images: [
-        '/images/img8.jpg',
-        '/images/img9.jpg',
-        '/images/img10.jpg'
+        '/images/img21.jpg',
+        '/images/img22.jpg',
+        '/images/img23.jpg'
       ]
     },
     {
       name: 'WILD',
       desc: 'A little unexpected.\nA lot of you.',
       images: [
-        '/images/img11.jpg',
-        '/images/img12.jpg',
-        '/images/img13.jpg'
+        '/images/img24.jpg',
+        '/images/img25.jpg',
+        '/images/img26.jpg'
       ]
     },
     {
       name: 'SOFT',
       desc: 'Let the details\nwhisper.',
       images: [
-        '/images/img1.jpg',
-        '/images/img2.jpg',
-        '/images/img3.jpg'
+        '/images/img27.jpg',
+        '/images/img28.jpg',
+        '/images/img29.jpg'
       ]
     },
     {
       name: 'SHY',
       desc: 'Quiet presence.\nBeautifully\nexpressed.',
       images: [
-        '/images/img4.jpg',
-        '/images/img5.jpg',
-        '/images/img6.jpg'
+        '/images/img30.jpg',
+        '/images/img31.jpg',
+        '/images/img32.jpg'
       ]
     },
     {
       name: 'IN COMMAND',
       desc: 'A sharper\nkind of calm.',
       images: [
-        '/images/img7.jpg',
-        '/images/img8.jpg',
-        '/images/img9.jpg'
+        '/images/img33.jpg',
+        '/images/img34.jpg',
+        '/images/img35.jpg'
       ]
     },
     {
       name: 'AT EASE',
       desc: 'Slow days.\nThoughtful style.',
       images: [
-        '/images/img10.jpg',
-        '/images/img11.jpg',
-        '/images/img12.jpg'
+        '/images/img36.jpg',
+        '/images/img37.jpg',
+        '/images/img38.jpg'
       ]
     }
   ];

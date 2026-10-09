@@ -2,12 +2,12 @@ import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   const designs = [
-    '/images/img10.jpg',
-    '/images/img11.jpg',
-    '/images/img12.jpg',
-    '/images/img13.jpg',
-    '/images/img1.jpg',
-    '/images/img2.jpg'
+    '/images/img15.jpg',
+    '/images/img16.jpg',
+    '/images/img17.jpg',
+    '/images/img18.jpg',
+    '/images/img19.jpg',
+    '/images/img20.jpg'
   ];
 
   return (
@@ -29,15 +29,15 @@ export default function Features() {
           </div>
           
           <div className="grid grid-cols-2 gap-2 mt-auto">
-            <img src="/images/img3.jpg" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
-            <img src="/images/img4.jpg" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/img10.jpg" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/img11.jpg" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
           </div>
         </div>
         
         <div className="w-full sm:w-1/2 grid grid-cols-2 gap-2 h-full">
-          <img src="/images/img5.jpg" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
-          <img src="/images/img6.jpg" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
-          <img src="/images/img7.jpg" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
+          <img src="/images/img12.jpg" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/img13.jpg" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/img14.jpg" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
         </div>
       </div>
 

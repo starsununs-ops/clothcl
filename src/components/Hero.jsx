@@ -31,13 +31,13 @@ export default function Hero() {
       {/* Center Displays (Mannequin/Clothing) */}
       <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
         <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full">
-          <img src="/images/img7.jpg" alt="Dress mannequin" className="w-full h-full object-cover" />
+          <img src="/images/img7.jpg" alt="Ladies Winter Jacket" className="w-full h-full object-cover" />
         </div>
         <div className="flex-1 overflow-hidden rounded-lg">
-          <img src="/images/img8.jpg" alt="Dress on form" className="w-full h-full object-cover" />
+          <img src="/images/img8.jpg" alt="Winter Sweater Dress" className="w-full h-full object-cover" />
         </div>
         <div className="flex-1 overflow-hidden mt-4 md:mt-8 rounded-t-full">
-          <img src="/images/img9.jpg" alt="Brown dress" className="w-full h-full object-cover" />
+          <img src="/images/img9.jpg" alt="Ladies Winter Coat" className="w-full h-full object-cover" />
         </div>
       </div>
       
