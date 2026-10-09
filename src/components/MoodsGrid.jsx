@@ -5,56 +5,32 @@ export default function MoodsGrid() {
     {
       name: 'BOLD',
       desc: 'Wear your\nconfidence.',
-      images: [
-        'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80',
-        'https://images.unsplash.com/photo-1521459467264-802e2ef3141f?w=600&q=80',
-        'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_bold_dresses.jpg'
     },
     {
       name: 'WILD',
       desc: 'A little unexpected.\nA lot of you.',
-      images: [
-        'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80',
-        'https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?w=600&q=80',
-        'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_wild_dresses.jpg'
     },
     {
       name: 'SOFT',
       desc: 'Let the details\nwhisper.',
-      images: [
-        'https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?w=600&q=80',
-        'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80',
-        'https://images.unsplash.com/photo-1528459105426-b9548367069b?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_soft_dresses.jpg'
     },
     {
       name: 'SHY',
       desc: 'Quiet presence.\nBeautifully\nexpressed.',
-      images: [
-        'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80',
-        'https://images.unsplash.com/photo-1534593963832-01c3595183bd?w=600&q=80',
-        'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_shy_dresses.jpg'
     },
     {
       name: 'IN COMMAND',
       desc: 'A sharper\nkind of calm.',
-      images: [
-        'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80',
-        'https://images.unsplash.com/photo-1541323421480-68513be3d209?w=600&q=80',
-        'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_in_command_dresses.jpg'
     },
     {
       name: 'AT EASE',
       desc: 'Slow days.\nThoughtful style.',
-      images: [
-        'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80',
-        'https://images.unsplash.com/photo-1521459467264-802e2ef3141f?w=600&q=80',
-        'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80'
-      ]
+      image: '/images/optimized/mood_at_ease_dresses.jpg'
     }
   ];
 
@@ -79,12 +55,8 @@ export default function MoodsGrid() {
               </a>
             </div>
             
-            <div className="w-2/3 h-32 lg:h-40 flex gap-2">
-              {mood.images.map((img, i) => (
-                <div key={i} className="flex-1 overflow-hidden rounded-sm bg-[#f8f6f0]">
-                  <img src={img} alt={`${mood.name} style ${i+1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                </div>
-              ))}
+            <div className="w-2/3 h-32 lg:h-40 flex overflow-hidden rounded-sm bg-[#f8f6f0]">
+              <img src={mood.image} alt={`${mood.name} styles`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             </div>
           </div>
         ))}

@@ -1,12 +1,11 @@
-import { ArrowRight, PencilRuler, FileText, Ruler, Leaf } from 'lucide-react';
+import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   return (
-    <section className="px-4 md:px-8 py-8 md:py-12 flex flex-col xl:flex-row gap-8 relative">
-      {/* Elegant Leaf Decorations */}
-      <Leaf className="absolute top-1/2 -translate-y-1/2 left-0 w-32 md:w-48 h-32 md:h-48 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform rotate-12" strokeWidth={1} />
-      <Leaf className="absolute bottom-12 left-1/2 -translate-x-1/2 w-32 md:w-48 h-32 md:h-48 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 xl:block hidden transform -rotate-12" strokeWidth={1} />
-
+    <section className="px-4 md:px-8 py-8 md:py-12 flex flex-col xl:flex-row gap-8 relative overflow-hidden">
+      {/* Decorative Plants */}
+      <img src="/images/optimized/plant_mid_left.jpg" className="absolute top-1/2 -translate-y-1/2 -left-10 w-24 md:w-32 opacity-60 mix-blend-multiply pointer-events-none z-0" alt="" />
+      
       {/* Left Block */}
       <div className="w-full xl:w-[45%] flex flex-col sm:flex-row gap-6 items-stretch relative z-10">
         <div className="w-full sm:w-1/2 flex flex-col justify-between">
@@ -26,7 +25,7 @@ export default function Features() {
         
         <div className="w-full sm:w-1/2 flex justify-end overflow-hidden rounded-lg group cursor-pointer relative shadow-md hover:shadow-xl transition-all duration-500">
           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
-          <img src="https://images.unsplash.com/photo-1620799139834-6b8f844fbe61?auto=format&fit=crop&q=80&w=800" alt="Fabric details" className="w-full h-64 sm:h-auto object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="/images/optimized/features_fabrics_mosaic.jpg" alt="Fabric details" className="w-full h-64 sm:h-auto object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
       </div>
 
@@ -49,7 +48,7 @@ export default function Features() {
 
         <div className="mb-6 md:mb-8 flex justify-center overflow-hidden rounded-lg group cursor-pointer relative shadow-md hover:shadow-xl transition-all duration-500 max-w-2xl mx-auto">
           <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
-          <img src="https://images.unsplash.com/photo-1596755094514-f87e32f85e2c?auto=format&fit=crop&q=80&w=800" alt="6 Custom Designs" className="w-full h-48 sm:h-72 object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="/images/optimized/features_custom_dresses.jpg" alt="6 Custom Designs" className="w-full h-48 sm:h-72 object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between border-t border-[#d8d3c9] pt-6 gap-4">

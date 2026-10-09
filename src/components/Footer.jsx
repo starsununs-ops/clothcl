@@ -1,10 +1,10 @@
-import { ArrowRight, Leaf } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="px-4 md:px-8 py-8 md:py-12 relative border-t border-[#e5e0d8] mt-4 md:mt-8 overflow-hidden">
-      {/* Elegant Leaf Decoration */}
-      <Leaf className="absolute bottom-0 right-0 w-64 md:w-96 h-64 md:h-96 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform -rotate-12 translate-x-1/4 translate-y-1/4" strokeWidth={1} />
+      {/* Decorative Plant */}
+      <img src="/images/optimized/plant_bottom_right.jpg" className="absolute bottom-0 -right-10 w-48 md:w-64 opacity-60 mix-blend-multiply pointer-events-none z-0" alt="" />
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 max-w-6xl mx-auto items-center text-center md:text-left relative z-10">
         
@@ -34,7 +34,7 @@ export default function Footer() {
         {/* Tools image */}
         <div className="flex-1 w-full flex justify-center md:justify-end overflow-hidden rounded-lg group cursor-pointer relative shadow-md hover:shadow-xl transition-all duration-500">
           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none"></div>
-          <img src="https://images.unsplash.com/photo-1629471131976-130ab78fbe6c?auto=format&fit=crop&q=80&w=800" alt="Sewing sketches and tools" className="w-full h-64 md:h-80 object-cover transition-transform duration-700 group-hover:scale-110" />
+          <img src="/images/optimized/footer_sketch.jpg" alt="Sewing sketches and tools" className="w-full h-64 md:h-80 object-cover transition-transform duration-700 group-hover:scale-110" />
         </div>
       </div>
 

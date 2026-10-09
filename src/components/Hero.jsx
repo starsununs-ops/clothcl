@@ -1,19 +1,20 @@
-import { ArrowRight, Leaf } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1521459467264-802e2ef3141f?w=600&q=80' },
-    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: 'https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?w=600&q=80' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?w=600&q=80' },
-    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: 'https://images.unsplash.com/photo-1528459105426-b9548367069b?w=600&q=80' },
-    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: 'https://images.unsplash.com/photo-1534593963832-01c3595183bd?w=600&q=80' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1541323421480-68513be3d209?w=600&q=80' }
+    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/optimized/hero_fabric_0.jpg' },
+    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/optimized/hero_fabric_1.jpg' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/optimized/hero_fabric_2.jpg' },
+    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/optimized/hero_fabric_3.jpg' },
+    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/optimized/hero_fabric_4.jpg' },
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/optimized/hero_fabric_5.jpg' }
   ];
 
   return (
-    <section className="flex flex-col lg:flex-row px-4 md:px-8 py-8 md:py-12 gap-8 lg:gap-8 items-stretch relative">
-      {/* Elegant Leaf Decoration */}
-      <Leaf className="absolute -top-10 -left-10 w-48 md:w-80 h-48 md:h-80 opacity-[0.03] text-[#2b2725] pointer-events-none z-0 transform -rotate-45" strokeWidth={1} />
+    <section className="flex flex-col lg:flex-row px-4 md:px-8 py-8 md:py-12 gap-8 lg:gap-8 items-stretch relative overflow-hidden">
+      {/* Decorative Plants */}
+      <img src="/images/optimized/plant_top_left.jpg" className="absolute top-0 -left-10 w-48 md:w-80 opacity-60 mix-blend-multiply pointer-events-none z-0" alt="" />
+      <img src="/images/optimized/plant_top_right.jpg" className="absolute top-0 -right-10 w-48 md:w-80 opacity-60 mix-blend-multiply pointer-events-none z-0" alt="" />
       
       {/* Left Text */}
       <div className="w-full lg:w-1/4 flex flex-col justify-center text-center lg:text-left order-1 lg:order-1 relative z-20 pl-4 md:pl-8">
@@ -31,16 +32,19 @@ export default function Hero() {
         </div>
       </div>
       
-      {/* Center Displays (Mannequin/Clothing) */}
-      <div className="w-full lg:w-1/2 flex gap-3 md:gap-5 order-2 lg:order-2 h-[400px] md:h-[500px] lg:h-[600px] relative z-10">
-        <div className="flex-1 overflow-hidden mt-12 md:mt-24 rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=800&q=80" alt="Clothing rack" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+      {/* Center Displays (4 Mannequins) */}
+      <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[400px] md:h-[500px] lg:h-[600px] relative z-10 px-4 md:px-8">
+        <div className="flex-1 overflow-hidden mt-20 md:mt-32 rounded-t-full cursor-pointer group shadow-xl">
+          <img src="/images/optimized/hero_dress_1.jpg" alt="Dress 1" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+        </div>
+        <div className="flex-1 overflow-hidden mt-8 md:mt-12 rounded-t-full cursor-pointer group shadow-xl">
+          <img src="/images/optimized/hero_dress_2.jpg" alt="Dress 2" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
         <div className="flex-1 overflow-hidden rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80" alt="Stylish clothing rack" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+          <img src="/images/optimized/hero_dress_3.jpg" alt="Dress 3" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
-        <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full cursor-pointer group shadow-xl">
-          <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?auto=format&fit=crop&w=800&q=80" alt="Boutique clothing" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
+        <div className="flex-1 overflow-hidden mt-12 md:mt-20 rounded-t-full cursor-pointer group shadow-xl">
+          <img src="/images/optimized/hero_dress_4.jpg" alt="Dress 4" className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110" />
         </div>
       </div>
       
