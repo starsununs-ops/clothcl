@@ -28,14 +28,14 @@ export default function Footer() {
           </button>
         </div>
 
-        {/* Botanical Image */}
-        <div className="flex-1 w-full h-48 md:h-64 flex justify-center md:justify-end bg-[#e8e4db] overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1505672678657-cc70370f6e81?w=1200&q=80" alt="Botanical details" className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700" />
+        {/* Tools image */}
+        <div className="flex-1 w-full h-48 md:h-64 flex justify-center md:justify-end bg-gray-100">
+          <img src="https://images.unsplash.com/photo-1629471131976-130ab78fbe6c?w=1200&q=80" alt="Sewing sketches and tools" className="w-full h-full object-cover grayscale opacity-80" />
         </div>
       </div>
 
       <div className="mt-8 md:mt-12 text-center border-t border-[#e5e0d8] pt-6">
-        <p className="font-serif text-lg md:text-xl italic text-gray-600">Your mood. Your nature.</p>
+        <p className="font-serif text-lg md:text-xl italic text-gray-600">Your mood. Your style.</p>
       </div>
     </footer>
   );
