@@ -5,32 +5,56 @@ export default function MoodsGrid() {
     {
       name: 'BOLD',
       desc: 'Wear your\nconfidence.',
-      image: '/images/generated/mood_bold.jpg'
+      images: [
+        '/images/dress_21.jpg',
+        '/images/dress_22.jpg',
+        '/images/dress_23.jpg'
+      ]
     },
     {
       name: 'WILD',
       desc: 'A little unexpected.\nA lot of you.',
-      image: '/images/generated/mood_wild.jpg'
+      images: [
+        '/images/dress_24.jpg',
+        '/images/dress_25.jpg',
+        '/images/dress_26.jpg'
+      ]
     },
     {
       name: 'SOFT',
       desc: 'Let the details\nwhisper.',
-      image: '/images/generated/mood_soft.jpg'
+      images: [
+        '/images/dress_27.jpg',
+        '/images/dress_28.jpg',
+        '/images/dress_29.jpg'
+      ]
     },
     {
       name: 'SHY',
       desc: 'Quiet presence.\nBeautifully\nexpressed.',
-      image: '/images/generated/mood_shy.jpg'
+      images: [
+        '/images/dress_30.jpg',
+        '/images/dress_31.jpg',
+        '/images/dress_32.jpg'
+      ]
     },
     {
       name: 'IN COMMAND',
       desc: 'A sharper\nkind of calm.',
-      image: '/images/generated/mood_command.jpg'
+      images: [
+        '/images/dress_33.jpg',
+        '/images/dress_34.jpg',
+        '/images/dress_35.jpg'
+      ]
     },
     {
       name: 'AT EASE',
       desc: 'Slow days.\nThoughtful style.',
-      image: '/images/generated/mood_ease.jpg'
+      images: [
+        '/images/dress_36.jpg',
+        '/images/dress_37.jpg',
+        '/images/dress_38.jpg'
+      ]
     }
   ];
 
@@ -44,21 +68,23 @@ export default function MoodsGrid() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
         {moods.map((mood, idx) => (
-          <div key={idx} className="bg-[#f3efea] p-4 flex flex-col md:flex-row items-center shadow-sm gap-4">
-            <div className="w-full md:w-1/3 flex flex-row md:flex-col justify-between items-start h-full">
+          <div key={idx} className="bg-[#f3efea] p-4 flex flex-row items-center shadow-sm gap-2">
+            <div className="w-1/3 flex flex-col justify-between h-full">
               <div>
                 <h3 className="font-serif text-lg lg:text-xl mb-1">{mood.name}</h3>
-                <p className="text-gray-600 text-[10px] lg:text-xs whitespace-pre-line mb-2 md:mb-4 font-serif italic leading-tight">{mood.desc}</p>
+                <p className="text-gray-600 text-[10px] lg:text-xs whitespace-pre-line mb-4 font-serif italic leading-tight">{mood.desc}</p>
               </div>
-              <a href="#" className="text-[8px] lg:text-[9px] tracking-widest uppercase flex items-center gap-1 hover:text-brand-gold transition-colors mt-2 md:mt-0">
+              <a href="#" className="text-[8px] lg:text-[9px] tracking-widest uppercase flex items-center gap-1 hover:text-brand-gold transition-colors">
                 VIEW ALL <ArrowRight size={12} />
               </a>
             </div>
             
-            <div className="w-full md:w-2/3 h-48 md:h-32 flex gap-1">
-              <div className="flex-1 bg-gray-200 rounded-sm overflow-hidden">
-                <img src={mood.image} alt={`${mood.name} style`} className="w-full h-full object-cover" />
-              </div>
+            <div className="w-2/3 h-24 lg:h-32 flex gap-1">
+              {mood.images.map((img, i) => (
+                <div key={i} className="flex-1 bg-gray-200">
+                  <img src={img} alt={`${mood.name} style ${i+1}`} className="w-full h-full object-cover" />
+                </div>
+              ))}
             </div>
           </div>
         ))}

@@ -2,12 +2,12 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/generated/hero_fabric_bold.jpg' },
-    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/generated/hero_fabric_wild.jpg' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/generated/hero_fabric_soft.jpg' },
-    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/generated/hero_fabric_shy.jpg' },
-    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/generated/hero_fabric_command.jpg' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/generated/hero_fabric_ease.jpg' }
+    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/dress_1.jpg' },
+    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/dress_2.jpg' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/dress_3.jpg' },
+    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/dress_4.jpg' },
+    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/dress_5.jpg' },
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/dress_6.jpg' }
   ];
 
   return (
@@ -28,9 +28,17 @@ export default function Hero() {
         </div>
       </div>
       
-      {/* Center Display (Main Hero Image) */}
-      <div className="w-full lg:w-[50%] flex order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
-        <img src="/images/generated/hero_main.jpg" alt="Style Ur Mood Collection" className="w-full h-full object-cover rounded-sm shadow-md" />
+      {/* Center Displays (Mannequin/Clothing) */}
+      <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
+        <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full">
+          <img src="/images/dress_7.jpg" alt="Vintage Ladies Dress" className="w-full h-full object-cover" />
+        </div>
+        <div className="flex-1 overflow-hidden rounded-lg">
+          <img src="/images/dress_8.jpg" alt="Classic Ladies Dress" className="w-full h-full object-cover" />
+        </div>
+        <div className="flex-1 overflow-hidden mt-4 md:mt-8 rounded-t-full">
+          <img src="/images/dress_9.jpg" alt="Elegant Ladies Dress" className="w-full h-full object-cover" />
+        </div>
       </div>
       
       {/* Right Explore by Mood */}

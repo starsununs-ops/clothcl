@@ -2,12 +2,12 @@ import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   const designs = [
-    '/images/generated/design_1.jpg',
-    '/images/generated/design_2.jpg',
-    '/images/generated/design_3.jpg',
-    '/images/generated/design_4.jpg',
-    '/images/generated/design_5.jpg',
-    '/images/generated/design_6.jpg'
+    '/images/dress_15.jpg',
+    '/images/dress_16.jpg',
+    '/images/dress_17.jpg',
+    '/images/dress_18.jpg',
+    '/images/dress_19.jpg',
+    '/images/dress_20.jpg'
   ];
 
   return (
@@ -29,15 +29,15 @@ export default function Features() {
           </div>
           
           <div className="grid grid-cols-2 gap-2 mt-auto">
-            <img src="/images/generated/detail_lace.jpg" alt="Lace fabric" className="w-full h-32 md:h-40 object-cover" />
-            <img src="/images/generated/detail_button.jpg" alt="Tweed button" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/dress_10.jpg" alt="Fabric 1" className="w-full h-32 md:h-40 object-cover" />
+            <img src="/images/dress_11.jpg" alt="Fabric 2" className="w-full h-32 md:h-40 object-cover" />
           </div>
         </div>
         
         <div className="w-full sm:w-1/2 grid grid-cols-2 gap-2 h-full">
-          <img src="/images/generated/detail_denim.jpg" alt="Denim fabric" className="w-full h-32 md:h-48 object-cover" />
-          <img src="/images/generated/detail_silk.jpg" alt="Silk fabric" className="w-full h-32 md:h-48 object-cover" />
-          <img src="/images/generated/detail_floral.jpg" alt="Floral fabric" className="w-full h-40 md:h-56 object-cover col-span-2" />
+          <img src="/images/dress_12.jpg" alt="Fabric 3" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/dress_13.jpg" alt="Fabric 4" className="w-full h-32 md:h-48 object-cover" />
+          <img src="/images/dress_14.jpg" alt="Fabric 5" className="w-full h-40 md:h-56 object-cover col-span-2" />
         </div>
       </div>
 
