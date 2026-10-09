@@ -2,12 +2,12 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/img1.jpg' },
-    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/img2.jpg' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/img3.jpg' },
-    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/img4.jpg' },
-    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/img5.jpg' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/img6.jpg' }
+    { name: 'BOLD', desc: 'Wear your confidence.', img: '/images/generated/hero_fabric_bold.jpg' },
+    { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: '/images/generated/hero_fabric_wild.jpg' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: '/images/generated/hero_fabric_soft.jpg' },
+    { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: '/images/generated/hero_fabric_shy.jpg' },
+    { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: '/images/generated/hero_fabric_command.jpg' },
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: '/images/generated/hero_fabric_ease.jpg' }
   ];
 
   return (
@@ -28,17 +28,9 @@ export default function Hero() {
         </div>
       </div>
       
-      {/* Center Displays (Mannequin/Clothing) */}
-      <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
-        <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full">
-          <img src="/images/img7.jpg" alt="Ladies Winter Jacket" className="w-full h-full object-cover" />
-        </div>
-        <div className="flex-1 overflow-hidden rounded-lg">
-          <img src="/images/img8.jpg" alt="Winter Sweater Dress" className="w-full h-full object-cover" />
-        </div>
-        <div className="flex-1 overflow-hidden mt-4 md:mt-8 rounded-t-full">
-          <img src="/images/img9.jpg" alt="Ladies Winter Coat" className="w-full h-full object-cover" />
-        </div>
+      {/* Center Display (Main Hero Image) */}
+      <div className="w-full lg:w-[50%] flex order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
+        <img src="/images/generated/hero_main.jpg" alt="Style Ur Mood Collection" className="w-full h-full object-cover rounded-sm shadow-md" />
       </div>
       
       {/* Right Explore by Mood */}
