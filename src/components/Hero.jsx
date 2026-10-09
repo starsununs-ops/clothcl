@@ -2,12 +2,12 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const fabrics = [
-    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80' },
+    { name: 'BOLD', desc: 'Wear your confidence.', img: 'https://images.unsplash.com/photo-1577900232427-18219b9166a0?w=800&q=80' },
     { name: 'WILD', desc: 'A little unexpected. A lot of you.', img: 'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80' },
-    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80' },
+    { name: 'SOFT', desc: 'Let the details whisper.', img: 'https://images.unsplash.com/photo-1603400521630-9f2de124b33b?w=800&q=80' },
     { name: 'SHY', desc: 'Quiet presence. Beautifully expressed.', img: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=80' },
     { name: 'IN COMMAND', desc: 'A sharper kind of calm.', img: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80' },
-    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80' }
+    { name: 'AT EASE', desc: 'Slow days. Thoughtful style.', img: 'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&q=80' }
   ];
 
   return (
@@ -31,13 +31,13 @@ export default function Hero() {
       {/* Center Displays (Mannequin/Clothing) */}
       <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
         <div className="flex-1 overflow-hidden mt-6 md:mt-12 rounded-t-full">
-          <img src="https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?w=800&q=80" alt="Dress mannequin" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80" alt="Dress mannequin" className="w-full h-full object-cover" />
         </div>
         <div className="flex-1 overflow-hidden rounded-lg">
           <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&q=80" alt="Dress on form" className="w-full h-full object-cover" />
         </div>
         <div className="flex-1 overflow-hidden mt-4 md:mt-8 rounded-t-full">
-          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80" alt="Brown dress" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1604467794349-0b74285de7e7?w=800&q=80" alt="Brown dress" className="w-full h-full object-cover" />
         </div>
       </div>
       

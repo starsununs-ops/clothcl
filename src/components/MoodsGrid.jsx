@@ -6,9 +6,9 @@ export default function MoodsGrid() {
       name: 'BOLD',
       desc: 'Wear your\nconfidence.',
       images: [
-        'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80',
+        'https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=400&q=80',
         'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=400&q=80',
-        'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400&q=80'
+        'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&q=80'
       ]
     },
     {

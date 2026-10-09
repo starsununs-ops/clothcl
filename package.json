@@ -26,5 +26,10 @@
     "postcss": "^8.5.29",
     "tailwindcss": "^4.3.3",
     "vite": "^8.3.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

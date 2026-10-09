@@ -2,11 +2,11 @@ import { ArrowRight, PencilRuler, FileText, Ruler } from 'lucide-react';
 
 export default function Features() {
   const designs = [
-    'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80',
+    'https://images.unsplash.com/photo-1577900232427-18219b9166a0?w=400&q=80',
     'https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=400&q=80',
-    'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400&q=80',
+    'https://images.unsplash.com/photo-1603400521630-9f2de124b33b?w=400&q=80',
     'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80',
-    'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80',
+    'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400&q=80',
     'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80'
   ];
 
