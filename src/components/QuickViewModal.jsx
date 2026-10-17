@@ -45,7 +45,7 @@ export default function QuickViewModal({ dress, onClose, onAddToCart, onToggleWi
           <X size={18} />
         </button>
 
-        {/* Left: Model & Dress Photo with Live Color Filter */}
+        {/* Left: Garment Photo with Live Color Filter */}
         <div className="w-full md:w-1/2 relative bg-[#f0eae1] flex items-center justify-center overflow-hidden min-h-[380px] md:min-h-[520px]">
           <div 
             className="w-full h-full relative cursor-zoom-in"
@@ -190,7 +190,7 @@ export default function QuickViewModal({ dress, onClose, onAddToCart, onToggleWi
                   onClick={() => setActiveTab('style')}
                   className={`pb-1 font-semibold tracking-wider text-[10px] uppercase cursor-pointer ${activeTab === 'style' ? 'border-b-2 border-[#8b7355] text-[#8b7355]' : 'text-gray-400 hover:text-gray-700'}`}
                 >
-                  Model Notes
+                  Styling Notes
                 </button>
                 <button 
                   onClick={() => setActiveTab('care')}

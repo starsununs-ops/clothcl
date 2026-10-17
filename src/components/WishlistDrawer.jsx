@@ -34,7 +34,7 @@ export default function WishlistDrawer({ isOpen, onClose, wishlistItems, onAddTo
                 <Heart size={48} className="text-gray-300 mb-4 stroke-1" />
                 <h3 className="font-serif text-lg text-gray-700 mb-2">No Saved Items Yet</h3>
                 <p className="text-xs text-gray-500 max-w-xs mb-6">
-                  Click the heart icon on any dress or model to curate your personal style moodboard.
+                  Click the heart icon on any garment to curate your personal style moodboard.
                 </p>
                 <button 
                   onClick={onClose}

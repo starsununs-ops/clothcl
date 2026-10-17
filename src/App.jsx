@@ -98,7 +98,7 @@ function App() {
       id: `bespoke-${Date.now()}`,
       name: `Bespoke ${customOrder.designName}`,
       price: customOrder.price,
-      image: '/images/models/customizer_base.jpg',
+      image: '/images/customizer_base.jpg',
       selectedColor: customOrder.color.name,
       selectedColorHex: customOrder.color.hex,
       selectedSize: `${customOrder.size} (Custom Fitted)`,

@@ -39,7 +39,7 @@ export default function CartDrawer({ isOpen, onClose, cartItems, onUpdateQuantit
                 <ShoppingBag size={48} className="text-gray-300 mb-4 stroke-1" />
                 <h3 className="font-serif text-lg text-gray-700 mb-2">Your Bag is Empty</h3>
                 <p className="text-xs text-gray-500 max-w-xs mb-6">
-                  Explore our modern girl clothing collection to discover silhouettes tailored to your mood.
+                  Explore our modern atelier clothing collection to discover silhouettes tailored to your mood.
                 </p>
                 <button 
                   onClick={onClose}

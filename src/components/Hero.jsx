@@ -64,7 +64,7 @@ export default function Hero({ onOpenQuickView }) {
         </div>
       </div>
       
-      {/* Center Displays (Modern Girl Models & Dresses) */}
+      {/* Center Displays (Atelier Couture Silhouettes) */}
       <div className="w-full lg:w-1/2 flex gap-2 md:gap-4 order-2 lg:order-2 h-[300px] md:h-[400px] lg:h-[500px]">
         {/* Left Arch: Parisian Balcony Floral Dress */}
         <div 
@@ -73,7 +73,7 @@ export default function Hero({ onOpenQuickView }) {
         >
           <img 
             src="/images/dress_7.jpg" 
-            alt="Balcony Bloom Dress on Girl Model" 
+            alt="Balcony Bloom Pleated Gown on Tailor Form" 
             className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 ease-out" 
           />
           <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 text-white">
@@ -92,7 +92,7 @@ export default function Hero({ onOpenQuickView }) {
         >
           <img 
             src="/images/dress_8.jpg" 
-            alt="Modern Girls in Silk and Tulle Dresses" 
+            alt="Silk Slip and Tulle Evening Dresses on Brass Clothing Rack" 
             className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 ease-out" 
           />
           <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 text-white">
@@ -111,7 +111,7 @@ export default function Hero({ onOpenQuickView }) {
         >
           <img 
             src="/images/dress_9.jpg" 
-            alt="Ethereal Blossom Couture on Girl Model" 
+            alt="Ethereal Blossom Embroidered Gown on Dressmaker Dummy" 
             className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700 ease-out" 
           />
           <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3 text-white">
@@ -141,7 +141,7 @@ export default function Hero({ onOpenQuickView }) {
             >
               <img 
                 src={fabric.img} 
-                alt={`${fabric.name} girl model`} 
+                alt={`${fabric.name} couture garment`} 
                 className="w-full h-full object-cover group-hover:scale-115 transition-transform duration-700" 
               />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/25 transition-colors flex flex-col justify-end p-1 md:p-2 text-white">

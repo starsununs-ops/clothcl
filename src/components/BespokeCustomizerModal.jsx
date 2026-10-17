@@ -66,7 +66,7 @@ export default function BespokeCustomizerModal({ initialDesignIndex = 0, onClose
           <X size={18} />
         </button>
 
-        {/* Left Side: Atelier Model Live Preview */}
+        {/* Left Side: Atelier Silhouette Live Preview */}
         <div className="w-full md:w-5/12 bg-[#ebe4da] p-6 flex flex-col justify-between relative overflow-hidden min-h-[380px] md:min-h-[580px]">
           <div className="relative z-10">
             <span className="bg-[#8b7355] text-white text-[9px] tracking-widest uppercase px-3 py-1 font-semibold inline-block mb-2">
@@ -80,11 +80,11 @@ export default function BespokeCustomizerModal({ initialDesignIndex = 0, onClose
             </p>
           </div>
 
-          {/* Model Image with Live Custom Color Filter */}
+          {/* Garment Image with Live Custom Color Filter */}
           <div className="my-auto relative rounded-sm overflow-hidden shadow-lg border border-white/50 h-[320px] md:h-[400px]">
             <img 
-              src="/images/models/customizer_base.jpg" 
-              alt="Customizer model"
+              src="/images/customizer_base.jpg" 
+              alt="Customizer silhouette on tailor dummy"
               style={{ filter: customOptions.color.filter }}
               className="w-full h-full object-cover transition-all duration-500"
             />
@@ -143,7 +143,7 @@ export default function BespokeCustomizerModal({ initialDesignIndex = 0, onClose
             {currentStep === 1 && (
               <div>
                 <h4 className="font-serif text-lg text-[#2b2725] mb-1">Step 1: Select Your Base Silhouette</h4>
-                <p className="text-xs text-gray-500 mb-4">Choose from the 6 signature modern girl cuts created for the collection.</p>
+                <p className="text-xs text-gray-500 mb-4">Choose from the 6 signature atelier silhouettes created for the collection.</p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
                   {customizableDesigns.map((d, idx) => (
